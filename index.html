@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shankharav Pal - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">PORTFOLIO</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="mobile-menu-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Shankharav Pal</h1>
+                <h3>And I'm a <span class="text-typing"></span></h3>
+                <p>2nd year B.Tech Electronics &amp; Computer Engineering student at VIT University, passionate about
+                    embedded systems, software development, and building intelligent, real-world solutions at the
+                    intersection of hardware and code.</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shankharav-pal-152770306" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/shankharav-pal" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:palshakya2006@gmail.com"><i class='bx bxs-envelope'></i></a>
+                </div>
+            </div>
+            <div class="home-image-container">
+                <div class="glow-circle"></div>
+                <img src="profile.jpg" alt="Shankharav Pal">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2>About <span>Me</span></h2>
+
+                <div class="academic-info">
+                    <div class="info-item"><i class='bx bxs-school'></i><span><strong>University:</strong> VIT Chennai University</span></div>
+                    <div class="info-item"><i class='bx bxs-institution'></i><span><strong>School:</strong> SENSE (School of Electronics Engineering)</span></div>
+                    <div class="info-item"><i class='bx bx-chip'></i><span><strong>Branch/Department:</strong> Electronics &amp; Computer Engineering (ECM)</span></div>
+                    <div class="info-item"><i class='bx bxs-user-badge'></i><span><strong>Student Name:</strong> Shankharav Pal</span></div>
+                    <div class="info-item"><i class='bx bx-id-card'></i><span><strong>Registration Number:</strong> 24BLC1384</span></div>
+                </div>
+
+                <h3 class="objective-heading">Career Objective</h3>
+                <p>Second-year Electronics &amp; Computer Engineering (ECM) student at VIT University with a strong
+                    technical foundation and a results-driven mindset. Quick learner with a passion for
+                    problem-solving, innovation, and hands-on execution. Experienced in embedded systems, Data
+                    Structures &amp; Algorithms, and collaborative software development. Actively seeking
+                    opportunities to apply skills in real-world engineering and software challenges.</p>
+                    <a href="https://www.linkedin.com/in/shankharav-pal-152770306" class="btn about-btn" target="_blank">More About Me <i class='bx bxl-linkedin'></i></a>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-group">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li><i class='bx bx-code-alt'></i> C / C++ <span class="percentage">85%</span></li>
+                        <li><i class='bx bxl-python'></i> Python <span class="percentage">80%</span></li>
+                        <li><i class='bx bxl-java'></i> Java <span class="percentage">70%</span></li>
+                        <li><i class='bx bx-terminal'></i> Embedded C <span class="percentage">80%</span></li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Software & Tools</h3>
+                    <ul class="skill-list">
+                        <li><i class='bx bx-mobile-alt'></i> Flutter / Dart <span class="percentage">75%</span></li>
+                        <li><i class='bx bxl-firebase'></i> Firebase <span class="percentage">70%</span></li>
+                        <li><i class='bx bxl-git'></i> Git / GitHub <span class="percentage">80%</span></li>
+                        <li><i class='bx bx-data'></i> DSA / OOP <span class="percentage">80%</span></li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Core Competencies</h3>
+                    <ul class="skill-list">
+                        <li><i class='bx bx-bulb'></i> Problem Solving <span class="percentage">90%</span></li>
+                        <li><i class='bx bxs-group'></i> Teamwork <span class="percentage">85%</span></li>
+                        <li><i class='bx bx-git-branch'></i> Debugging <span class="percentage">80%</span></li>
+                        <li><i class='bx bx-chip'></i> Hardware Prototyping <span class="percentage">75%</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>Latest <span>Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h4>Smart Helmet System (8051)</h4>
+                    <p>Rider safety system integrating the 8051 microcontroller with an MQ-3 alcohol sensor and IR
+                        sensor to block ignition on alcohol detection and enforce helmet compliance, using
+                        Embedded C and relay-controlled motor actuation.</p>
+                    <span class="tech-stack">Embedded C · 8051 · MQ-3 / IR Sensors · Relay Module</span>
+                </div>
+                <div class="project-card">
+                    <h4>LifeLine — Health Companion App</h4>
+                    <p>Flutter mobile app built at Hack-N-Droid 2.0 (VIT Chennai) for quick access to critical medical
+                        info in emergencies: SOS alerts with GPS, a BMI calculator, medicine search, first-aid guide,
+                        and health risk prediction — with Firebase Auth &amp; Firestore.</p>
+                    <a href="https://github.com/techyshakyapal/lifeline-app" class="project-link" target="_blank">View Project <i class='bx bx-link-external'></i></a>
+                </div>
+                <a href="https://github.com/shankharav-pal" class="btn projects-btn" target="_blank">More Projects <i class='bx bxl-github'></i></a>
+            </div>
+        </section>
+
+        <section class="achievements" id="achievements">
+            <h2>Certificates & <span>Achievements</span></h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <i class='bx bx-medal'></i>
+                    <h4>Hack-N-Droid 2.0 — Certificate of Appreciation</h4>
+                    <p>VIT Chennai (Android Club) · March 2026 — 24-hour hackathon building the LifeLine app.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class='bx bxl-java'></i>
+                    <h4>DSA Supreme 4.0 — Basics of Java</h4>
+                    <p>CodeHelp (by Love Babbar) · Nov 2025 – Mar 2026 — 5-month bootcamp on core Java & OOP.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class='bx bx-bulb'></i>
+                    <h4>The Pitchers ShowDown — Pitch-A-Thon</h4>
+                    <p>VNEST, VIT Chennai · September 2025 — entrepreneurial pitching event.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact <span>Me</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always open to new projects, collaborations, and learning opportunities. Whether it's
+                        embedded systems, mobile apps, or software development, I'd be glad to bring your ideas to
+                        life.</p>
+                    <div class="contact-details">
+                        <p><i class='bx bxs-envelope'></i> palshakya2006@gmail.com</p>
+                        <p><i class='bx bxs-phone'></i> 9332914988</p>
+                        <p><i class='bx bxs-map'></i> Jalpaiguri, West Bengal</p>
+                    </div>
+                </div>
+                <form id="contactForm" action="" method="POST" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <div id="status-animation-container">
+                <div class="animation-icon"></div>
+                <p class="animation-text"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; Shankharav Pal 2026 | All Rights Reserved.</p>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class='bx bx-up-arrow-alt'></i></a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
